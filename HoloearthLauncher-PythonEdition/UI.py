@@ -10,7 +10,7 @@ import Unzipper
 texture_data = []
 def DownloadFile():
     download_holoearth.DownloadHolo.Download()
-    while not os.path.isdir("E:\\Program Files\\MadeByRiritoNinigaya\\HoloEarthLauncher"):
+    while os.path.isdir("E:\\Program Files\\MadeByRiritoNinigaya\\HoloEarthLauncher"):
         time.sleep(5)
         if os.path.isfile("E:\\Program Files\\MadeByRiritoNinigaya\\HoloEarthLauncher\\Holoearth.zip"):
             if mbox.askyesno(title="Holoearth Launcher", message="Download Is Completed... Do you want to unzip?!") == mbox.YES:
