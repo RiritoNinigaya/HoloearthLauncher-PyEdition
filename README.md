@@ -1,2 +1,5 @@
 # HoloearthLauncher-PyEdition
-HoloearthLauncher-PyEdition by RiritoNinigaya(Custom Holoearth Launcher)
+
+Hello All, This is my Launcher for Game Holoearth... I'm Created this because Launcher from COVER CORP in C# and this Launcher(COVER CORP) **will be transformed into open source via dnSpy!!!**
+
+So Enjoy to use this!!!
