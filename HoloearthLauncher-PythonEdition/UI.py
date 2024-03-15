@@ -33,7 +33,7 @@ def UI_Main():
                 dpg.add_input_text(label="Path To Download File", tag="tag_pathval")
                 dpg.add_button(label="Download Holoearth Game", callback=DownloadFile)
         dpg.bind_font(finserif)
-    dpg.create_viewport(title='HoloearthLauncher by RiritoNinigaya', width=855, height=920)
+    dpg.create_viewport(title='HoloearthLauncher by RiritoNinigaya', width=920, height=1200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.set_primary_window("hololive_launcher", True)
