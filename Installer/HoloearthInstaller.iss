@@ -69,6 +69,12 @@ begin
   BASS_Start();
   BASS_ChannelPlay(mp3Handle, False);
 end;
+
+procedure DeinitializeSetup();
+begin
+BASS_Free();
+BASS_Stop();
+end;
 [Files]
 Source: "E:\HoloLauncher\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\HoloLauncher\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
