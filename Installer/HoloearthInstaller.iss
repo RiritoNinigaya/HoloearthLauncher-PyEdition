@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "HoloearthLauncher"
-#define MyAppVersion "1.5"
+#define MyAppVersion "0.1"
 #define MyAppPublisher "MadeByRiritoNinigaya"
 #define MyAppURL "https://www.example.com/"
 #define MyAppExeName "HoloearthCustomLauncher.exe"
