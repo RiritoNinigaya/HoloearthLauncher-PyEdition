@@ -1,13 +1,10 @@
 import dearpygui.dearpygui as dpg
 import ctypes
 import download_holoearth
-import PIL.Image
-import numpy
 import os
 import tkinter.messagebox as mbox
 import time
 import Unzipper
-texture_data = []
 def DownloadFile():
     download_holoearth.DownloadHolo.Download()
     while os.path.isdir("E:\\Program Files\\MadeByRiritoNinigaya\\HoloEarthLauncher"):
