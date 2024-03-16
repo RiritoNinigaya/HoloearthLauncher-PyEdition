@@ -4,7 +4,6 @@
 #define MyAppName "HoloearthLauncher"
 #define MyAppVersion "0.1"
 #define MyAppPublisher "MadeByRiritoNinigaya"
-#define MyAppURL "https://www.example.com/"
 #define MyAppExeName "HoloearthCustomLauncher.exe"
 
 [Setup]
@@ -15,9 +14,6 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppURL}
-AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\MadeByRiritoNinigaya
 DefaultGroupName=HoloearthLauncherPyEdition
 DisableProgramGroupPage=yes
